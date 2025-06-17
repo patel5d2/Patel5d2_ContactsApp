@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:Patel5d2_ContactsApp.ViewModels"
+             x:Class="Patel5d2_ContactsApp.ContactsPage"
+             Title="Contacts">
+    <ContentPage.BindingContext>
+        <viewModels:ContactsViewModel/>
+    </ContentPage.BindingContext>
+    <CollectionView ItemsSource="{Binding ContactGroups}"
+                    IsGrouped="True"
+                    SelectionMode="Single"
+                    SelectionChanged="OnContactSelected">
+        <CollectionView.GroupHeaderTemplate>
+            <DataTemplate>
+                <Label Text="{Binding Key}"
+                       FontSize="Large"
+                       FontAttributes="Bold"
+                       BackgroundColor="LightGray"
+                       Padding="10"/>
+            </DataTemplate>
+        </CollectionView.GroupHeaderTemplate>
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <StackLayout Orientation="Horizontal" Padding="10" Spacing="15">
+                    <Image Source="{Binding PhotoUrl}"
+                           HeightRequest="60"
+                           WidthRequest="60"
+                           Aspect="AspectFill"
+                           VerticalOptions="Center"/>
+                    <Label Text="{Binding Name}"
+                           FontSize="Medium"
+                           VerticalOptions="Center"/>
+                </StackLayout>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+</ContentPage>
