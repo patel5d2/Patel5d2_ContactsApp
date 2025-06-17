@@ -64,7 +64,7 @@ Patel5d2_ContactsApp/
 
 1. **Clone the repository**
    ```bash
-   git clone [your-repository-url]
+   git clone https://github.com/patel5d2/Patel5d2_ContactsApp
    cd Patel5d2_ContactsApp
    ```
 
