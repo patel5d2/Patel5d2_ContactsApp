@@ -132,14 +132,22 @@ The app can be configured through:
 
 ## 📄 License
 
-This project is created as part of an academic assignment. Please respect academic integrity guidelines when using this code.
+This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
 
+### MIT License Summary
+- ✅ Commercial use
+- ✅ Modification
+- ✅ Distribution
+- ✅ Private use
+- ❌ Liability
+- ❌ Warranty
+  
 ## 👨‍💻 Author
 
 **Dharmin Patel**
 - Student ID: Patel5d2
 - Course: Mobile Development
-
+- Please reference this suppository if you're using any of this work
 ---
 
 * This project demonstrates cross-platform mobile and desktop application development using .NET MAUI framework.
