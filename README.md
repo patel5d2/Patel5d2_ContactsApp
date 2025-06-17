@@ -140,10 +140,6 @@ This project is created as part of an academic assignment. Please respect academ
 - Student ID: Patel5d2
 - Course: Mobile Development
 
-## 📞 Support
-
-For questions or support regarding this project, please contact the development team or refer to the course materials.
-
 ---
 
-*This project demonstrates cross-platform mobile and desktop application development using .NET MAUI framework.
+* This project demonstrates cross-platform mobile and desktop application development using .NET MAUI framework.
